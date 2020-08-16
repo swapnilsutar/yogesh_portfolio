@@ -1,0 +1,90 @@
+body{
+	scroll-behavior: smooth;
+}
+h1{
+	color:red;
+	text-align: center;
+	/* height: 500vh; */
+	top:50%;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 5em;
+	width: 100%;
+	background-color: rgba(0, 0, 1, 0.37);
+	color:white;
+	box-sizing: border-box;
+	padding: 12px 18px;
+	transition: background-color 0.4s ease-out;
+	text-align: center;
+}
+
+ul{
+	list-style-type:none ;
+}
+li a{
+	/* text-align:; */
+	float: left;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	letter-spacing: .085em;
+	transition: 0.5s;
+}
+li a:hover{
+	/* text-align:; */
+	background-color: rgba(0, 0, 0, 0.596);
+	text-decoration: none;
+	color: white;
+	/* border-radius: ; */
+}
+nav.scroll {
+	background-color: rgb(150, 235, 15);
+	color: black;
+	z-index: 5555;
+} 
+#home{
+	height: 1000px;	
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/pro.JPG");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.name{
+	font-weight: 1000;
+	font-size: 60px;
+	position: relative;
+	top:40%;
+	color:white;
+}
+
+#about{
+	padding-top:60px ;
+	padding-bottom: 70px;
+	background-color: #2f2f2f;
+	
+}
+.card-body{
+	background-color: black;
+	color:gray;
+	border: none;
+}
+.card-title{
+	color:white;
+	font-weight:600 ;
+}
+.card-subtitle{
+	color:#5cd03c !important;
+}
+#contact{
+	background-color: #101610;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color:white;
+}
