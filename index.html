@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Yogesh Sutar</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
-  <body data-spy="scroll" data-target="navbar-nav">
+  <body data-spy="scroll" data-offset="500" data-target="navbar-nav">
 
-  
+  <div class="cursor"></div>
     <nav id="navbar" class="navbar-nav">
       <!-- <h1>PORTFOLIO</h1> -->
       <ul class="nav justify-content-center">
@@ -20,22 +21,31 @@
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#experiance">experiance</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
 
     <div id="home">
-      <p align="center" class="name">
+      <p align="center" class="name" data-aos="zoom-in" data-aos-duration="2000">
         YOGESH SUTAR<br>
       <span style="font-size: 15px;font-weight:200;position: absolute;left: 47%;">Mechanical Engineer</span>  
       </p>
     </div>
 
     <div id="about">
+        <div class="container">
+
+        </div>
+    </div>
+
+    <div id="experiance">
 
       <div class="container">
 
@@ -43,9 +53,11 @@
           
           <div class="col-md-6">
             
-            <h2 style="color: white;padding: 20PX;">Education</h2>
+            <h2 style="color: rgb(174, 177, 2);padding: 20PX;">Education</h2>
 
-            <div class="card" style="width: 28rem;border: none;">
+   
+
+            <div class="card" data-aos="fade-right" data-aos-duration="1000">
               <div class="card-body">
                 <h5 class="card-title">2013-2016</h5>
                 <h6 class="card-subtitle mb-2 text-muted">B.E. Mechanical</h6>
@@ -55,7 +67,7 @@
               </div>
             </div>
             <br>
-            <div class="card" style="width: 28rem;border: none;">
+            <div class="card"  data-aos="fade-right" data-aos-duration="2000">
               <div class="card-body">
                 <h5 class="card-title">2010-2013</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Diploma in Mechanical Engineering</h6>
@@ -65,7 +77,7 @@
               </div>
             </div> 
             <br>
-            <div class="card" style="width: 28rem;border: none;">
+            <div class="card"  data-aos="fade-right" data-aos-duration="3000">
               <div class="card-body">
                 <h5 class="card-title">2010</h5>
                 <h6 class="card-subtitle mb-2 text-muted">S.S.C</h6>
@@ -77,9 +89,9 @@
           </div>
 
           <div class="col-md-4">
-            <h2 style="color: white;padding: 20PX;">Experiance</h2>
+            <h2 style="color: rgb(174, 177, 2);padding: 20PX;">Experiance</h2>
 
-            <div class="card" style="width: 28rem;border: none;">
+            <div class="card" data-aos="fade-left" data-aos-duration="1000">
               <div class="card-body">
                 <h5 class="card-title">Aug 2018 to present</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Design Engineer</h6>
@@ -94,7 +106,7 @@
             </div>    
             <br>
 
-            <div class="card" style="width: 28rem;border: none;">
+            <div class="card"  data-aos="fade-left" data-aos-duration="2000">
               <div class="card-body">
                 <h5 class="card-title">Dec 2016 to May 2018</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Jr. Design Engineer.</h6>
@@ -135,8 +147,13 @@
                   <br><br>
                   <input class="btn btn-outline-success btn-block"  type="submit" value='SEND MESSAGE'>
                   <br>
-                 </form>
 
+                 </form>
+    <!-- COUNTER -->
+      <div id="sfcb78mgnh23zlfme8yeau3gfsdx36sltgx"></div>
+  <script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=b78mgnh23zlfme8yeau3gfsdx36sltgx&down=async" async></script>
+  <noscript><a href="https://www.freecounterstat.com" title="website counters"><img src="https://counter3.stat.ovh/private/freecounterstat.php?c=b78mgnh23zlfme8yeau3gfsdx36sltgx" border="0" title="website counters" alt="website counters" diseabled></a></noscript>
+<!-- COUNTER CLOSE -->
 
                 </div>
 
@@ -158,6 +175,7 @@
                     <span class="c_sub"> +91 0000000000</span>
         
                     <br><br>
+                    <p class="c_title">FOLLOW ME</p>
                     &nbsp;&nbsp;&nbsp;
                     <a href="sa">
                       <img src="images/linkedin (1).png" alt="" class="icon_s">
@@ -187,8 +205,13 @@
 
 
     <script src="js/get.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({duration:1200,});
+      
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
